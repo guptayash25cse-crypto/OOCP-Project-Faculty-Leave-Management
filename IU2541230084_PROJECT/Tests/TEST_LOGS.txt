@@ -1,0 +1,1281 @@
+
+========================================================================
+T01 - Add Department - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T02 - Add Faculty - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T03 - Display saved records in current session - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+--- Department Records ---
+Department ID: 1 | Name: Computer Science
+
+--- Faculty Records ---
+Faculty ID: 101 | Name: Yash Gupta | Department: Computer Science
+
+--- Leave Requests ---
+No leave requests.
+
+--- Approval History ---
+No approval history.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T04 - Search existing faculty - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Search Record
+1. Faculty
+2. Department
+3. Leave Request
+Choose type: Enter ID: Faculty ID: 101 | Name: Yash Gupta | Department: Computer Science
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T05 - Search missing faculty - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Search Record
+1. Faculty
+2. Department
+3. Leave Request
+Choose type: Enter ID: Faculty record not found.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T06 - Update faculty record - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Enter Faculty ID to update: Enter new name: Enter department name: Faculty record updated successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+--- Department Records ---
+Department ID: 1 | Name: Computer Science
+Department ID: 2 | Name: Information Technology
+
+--- Faculty Records ---
+Faculty ID: 101 | Name: Yash Updated | Department: Information Technology
+
+--- Leave Requests ---
+No leave requests.
+
+--- Approval History ---
+No approval history.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T07 - Delete faculty without request history - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Delete Record
+1. Faculty
+2. Department
+Choose type: Enter ID to delete: Faculty record deleted.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+--- Department Records ---
+Department ID: 1 | Name: Physics
+
+--- Faculty Records ---
+No faculty records.
+
+--- Leave Requests ---
+No leave requests.
+
+--- Approval History ---
+No approval history.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T08 - Apply valid leave and calculate duration - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Main Transaction / Process
+1. Apply for leave
+2. Approve or reject leave
+Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request submitted. Request ID: 1. Duration: 3 day(s).
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T09 - Reject an invalid date range - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Main Transaction / Process
+1. Apply for leave
+2. Approve or reject leave
+Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request not created: End date cannot be before start date.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T10 - Approve a pending leave request - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Main Transaction / Process
+1. Apply for leave
+2. Approve or reject leave
+Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request submitted. Request ID: 1. Duration: 3 day(s).
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Main Transaction / Process
+1. Apply for leave
+2. Approve or reject leave
+Choose process: Enter Leave Request ID: 1. Approve  2. Reject: Enter Manager ID: Leave request Approved.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+===== FACULTY LEAVE REPORT =====
+Departments: 1
+Faculty members: 1
+Leave requests: 1
+Pending: 0
+Approved: 1
+Rejected: 0
+Approved leave days: 3
+Approval decisions recorded: 1
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T11 - Reject a pending leave request - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Main Transaction / Process
+1. Apply for leave
+2. Approve or reject leave
+Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request submitted. Request ID: 1. Duration: 3 day(s).
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Main Transaction / Process
+1. Apply for leave
+2. Approve or reject leave
+Choose process: Enter Leave Request ID: 1. Approve  2. Reject: Enter Manager ID: Leave request Rejected.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+===== FACULTY LEAVE REPORT =====
+Departments: 1
+Faculty members: 1
+Leave requests: 1
+Pending: 0
+Approved: 0
+Rejected: 1
+Approved leave days: 0
+Approval decisions recorded: 1
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T12 - Reject duplicate faculty ID - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: This Faculty ID already exists.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Invalid input. Enter a number from 1 to 9.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Invalid input. Enter a number from 1 to 9.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T13 - Protect faculty with leave-request history - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Main Transaction / Process
+1. Apply for leave
+2. Approve or reject leave
+Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request submitted. Request ID: 1. Duration: 3 day(s).
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Delete Record
+1. Faculty
+2. Department
+Choose type: Enter ID to delete: Cannot delete faculty with leave-request history.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T14 - Save and load records after restart - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Department ID: Enter Department Name: Department record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Main Transaction / Process
+1. Apply for leave
+2. Approve or reject leave
+Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request submitted. Request ID: 1. Duration: 3 day(s).
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+Main Transaction / Process
+1. Apply for leave
+2. Approve or reject leave
+Choose process: Enter Leave Request ID: 1. Approve  2. Reject: Enter Manager ID: Leave request Approved.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+--- REOPENED APPLICATION ---
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+--- Department Records ---
+Department ID: 1 | Name: Computer Science
+
+--- Faculty Records ---
+Faculty ID: 101 | Name: Yash Gupta | Department: Computer Science
+
+--- Leave Requests ---
+Request ID: 1 | Faculty ID: 101 | Type: Sick | From: 2026-10-20 | To: 2026-10-22 | Days: 3 | Status: Approved
+
+--- Approval History ---
+Approval ID: 1 | Request ID: 1 | Manager ID: 900 | Status: Approved
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 
+===== FACULTY LEAVE REPORT =====
+Departments: 1
+Faculty members: 1
+Leave requests: 1
+Pending: 0
+Approved: 1
+Rejected: 0
+Approved leave days: 3
+Approval decisions recorded: 1
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+
+
+========================================================================
+T15 - Invalid menu choice - PASS
+========================================================================
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Invalid menu choice. Enter 1 to 9.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: Records saved to the Data folder.
+Goodbye.
+

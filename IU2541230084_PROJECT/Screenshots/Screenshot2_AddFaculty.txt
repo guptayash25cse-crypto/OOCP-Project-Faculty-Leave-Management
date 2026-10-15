@@ -1,0 +1,40 @@
+Saved records loaded. Missing files are treated as empty on the first run.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 1
+
+Add Record
+1. Add Faculty
+2. Add Department
+Choose record type: 1
+Enter Faculty ID: 101
+Enter Faculty Name: Yash Gupta
+Enter Department Name (add department first): Computer Science
+Faculty record added successfully.
+
+====================================
+      FACULTY LEAVE MANAGEMENT
+====================================
+1. Add Record
+2. Display Records
+3. Search Record
+4. Update Record
+5. Delete Record
+6. Main Transaction / Process
+7. Report
+8. Save / Load
+9. Exit
+Enter your choice: 9
+Records saved to the Data folder.
+Goodbye.

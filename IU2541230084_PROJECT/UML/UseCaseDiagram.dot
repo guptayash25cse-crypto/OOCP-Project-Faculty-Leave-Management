@@ -1,0 +1,17 @@
+digraph UseCase {
+  graph [rankdir=LR, bgcolor="white", pad="0.25", nodesep="0.45", ranksep="0.7", labelloc="t", label="Use Case Diagram - Faculty Leave Management", fontsize=20, fontname="Arial"];
+  node [fontname="Arial", fontsize=11]; edge [fontname="Arial", fontsize=10];
+  faculty [shape=plaintext, label="Faculty Member"];
+  manager [shape=plaintext, label="Manager / Admin"];
+  subgraph cluster_system { label="Faculty Leave Management System"; style=rounded; color="#4F78A8"; penwidth=1.7;
+    add [shape=ellipse, label="Manage Faculty Records"];
+    dept [shape=ellipse, label="Manage Departments"];
+    apply [shape=ellipse, label="Apply for Leave"];
+    status [shape=ellipse, label="View Leave Requests"];
+    approve [shape=ellipse, label="Approve / Reject Leave"];
+    report [shape=ellipse, label="Generate Report"];
+    files [shape=ellipse, label="Save / Load Records"];
+  }
+  faculty -> apply; faculty -> status; faculty -> add;
+  manager -> add; manager -> dept; manager -> status; manager -> approve; manager -> report; manager -> files;
+}

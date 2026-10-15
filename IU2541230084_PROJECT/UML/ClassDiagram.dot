@@ -1,0 +1,20 @@
+digraph ClassDiagram {
+  graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.4", ranksep="0.55", labelloc="t", label="Class Diagram - Faculty Leave Management", fontsize=20, fontname="Arial"];
+  node [shape=record, fontname="Arial", fontsize=10, margin="0.08,0.06"];
+  edge [fontname="Arial", fontsize=9, arrowsize=0.8];
+  Displayable [label="{Displayable| |+ display() const = 0\l+ virtual destructor()\l}", style="filled", fillcolor="#E4ECF7"];
+  Faculty [label="{Faculty|- facultyId: int\l- name: string\l- department: string\l|+ Faculty()\l+ Faculty(id, name, department)\l+ getId()\l+ updateDetails()\l+ display() const\l}"];
+  Department [label="{Department|- departmentId: int\l- name: string\l|+ Department()\l+ Department(id, name)\l+ getId()\l+ display() const\l}"];
+  LeaveRequest [label="{LeaveRequest|- requestId: int\l- facultyId: int\l- type: string\l- fromDate: string\l- toDate: string\l- status: string\l|+ calculateDays() const\l+ setStatus()\l+ display() const\l}"];
+  Approval [label="{Approval|- approvalId: int\l- requestId: int\l- managerId: int\l- status: string\l|+ approve()\l+ reject()\l+ display() const\l}"];
+  LeaveSystem [label="{LeaveSystem|- faculty: Faculty*\l- departments: Department*\l- requests: LeaveRequest*\l- approvals: Approval*\l- record counts: int\l|+ addRecord()\l+ displayRecords()\l+ searchRecord()\l+ updateRecord()\l+ deleteRecord()\l+ processTransaction()\l+ report()\l+ saveNow() / loadData()\l}", style="filled", fillcolor="#FFF2CC"];
+  FileManager [label="{FileManager| |+ save(system) const\l+ load(system) const\l}", style="filled", fillcolor="#DDEBF7"];
+  Faculty -> Displayable [arrowhead=empty]; Department -> Displayable [arrowhead=empty]; LeaveRequest -> Displayable [arrowhead=empty]; Approval -> Displayable [arrowhead=empty];
+  LeaveSystem -> Faculty [arrowhead=vee, label="stores 0..100"];
+  LeaveSystem -> Department [arrowhead=vee, label="stores 0..100"];
+  LeaveSystem -> LeaveRequest [arrowhead=vee, label="stores 0..100"];
+  LeaveSystem -> Approval [arrowhead=vee, label="stores 0..100"];
+  FileManager -> LeaveSystem [dir=both, arrowhead=vee, arrowtail=vee, label="saves / loads"];
+  {rank=same; Faculty; Department;}
+  {rank=same; LeaveRequest; Approval;}
+}

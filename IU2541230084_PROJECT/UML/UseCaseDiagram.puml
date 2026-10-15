@@ -1,0 +1,23 @@
+@startuml
+left to right direction
+actor "Faculty Member" as Faculty
+actor "Manager / Admin" as Manager
+rectangle "Faculty Leave Management System" {
+ usecase "Manage Faculty Records" as U1
+ usecase "Manage Departments" as U2
+ usecase "Apply for Leave" as U3
+ usecase "View Leave Requests" as U4
+ usecase "Approve / Reject Leave" as U5
+ usecase "Generate Report" as U6
+ usecase "Save / Load Records" as U7
+}
+Faculty -- U1
+Faculty -- U3
+Faculty -- U4
+Manager -- U1
+Manager -- U2
+Manager -- U4
+Manager -- U5
+Manager -- U6
+Manager -- U7
+@enduml

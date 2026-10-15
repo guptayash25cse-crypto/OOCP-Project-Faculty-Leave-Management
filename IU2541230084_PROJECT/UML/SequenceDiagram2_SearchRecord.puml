@@ -1,0 +1,11 @@
+@startuml
+actor User
+participant "main.cpp / Menu" as Main
+participant LeaveSystem as System
+participant "Faculty Array" as Records
+User -> Main : select Search Record
+Main -> System : searchRecord()
+System -> Records : check each Faculty ID
+Records --> System : index or no match
+System --> User : display record / not-found message
+@enduml

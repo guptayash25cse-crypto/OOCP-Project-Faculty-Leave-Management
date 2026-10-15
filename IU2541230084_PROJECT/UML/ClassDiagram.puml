@@ -1,0 +1,57 @@
+@startuml
+abstract class Displayable { +display() const }
+class Faculty { -facultyId: int
+-name: string
+-department: string
++Faculty()
++Faculty(id, name, department)
++getId()
++updateDetails()
++display() const }
+class Department { -departmentId: int
+-name: string
++Department()
++Department(id, name)
++getId()
++display() const }
+class LeaveRequest { -requestId: int
+-facultyId: int
+-type: string
+-fromDate: string
+-toDate: string
+-status: string
++calculateDays() const
++setStatus()
++display() const }
+class Approval { -approvalId: int
+-requestId: int
+-managerId: int
+-status: string
++approve()
++reject()
++display() const }
+class LeaveSystem { -faculty: Faculty*
+-departments: Department*
+-requests: LeaveRequest*
+-approvals: Approval*
++addRecord()
++displayRecords()
++searchRecord()
++updateRecord()
++deleteRecord()
++processTransaction()
++report()
++saveNow()
++loadData() }
+class FileManager { +save(system)
++load(system) }
+Faculty --|> Displayable
+Department --|> Displayable
+LeaveRequest --|> Displayable
+Approval --|> Displayable
+LeaveSystem o-- "0..100" Faculty
+LeaveSystem o-- "0..100" Department
+LeaveSystem o-- "0..100" LeaveRequest
+LeaveSystem o-- "0..100" Approval
+FileManager ..> LeaveSystem : save / load
+@enduml

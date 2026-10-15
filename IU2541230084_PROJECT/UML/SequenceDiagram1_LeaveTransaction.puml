@@ -1,0 +1,20 @@
+@startuml
+actor Faculty
+actor Manager
+participant "main.cpp / Menu" as Main
+participant LeaveSystem as System
+participant LeaveRequest as Request
+participant Approval
+participant FileManager as Files
+Faculty -> Main : choose Main Transaction
+Main -> System : processTransaction()
+System -> Request : validate dates / calculateDays()
+Request --> System : duration and status
+System --> Faculty : request ID and duration
+Manager -> Main : approve or reject request
+Main -> System : processTransaction()
+System -> Approval : create approval record
+System -> Request : update status
+System -> Files : save() on exit
+Files --> System : records written
+@enduml

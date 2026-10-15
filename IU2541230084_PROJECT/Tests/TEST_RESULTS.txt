@@ -1,0 +1,65 @@
+FACULTY LEAVE MANAGEMENT - AUTOMATED TEST RESULTS
+Compiler: g++ -std=c++17
+Test environment: Linux integration run
+
+T01 - Add Department: PASS
+  Expected: Department record added successfully.
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T02 - Add Faculty: PASS
+  Expected: Faculty record added successfully.
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T03 - Display saved records in current session: PASS
+  Expected: Faculty ID: 101; Yash Gupta
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T04 - Search existing faculty: PASS
+  Expected: Faculty ID: 101; Yash Gupta
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T05 - Search missing faculty: PASS
+  Expected: Faculty record not found.
+  Actual: 2. Display Records | Choose type: Enter ID: Faculty record not found. | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T06 - Update faculty record: PASS
+  Expected: Faculty record updated successfully.; Yash Updated
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | Enter your choice: Enter Faculty ID to update: Enter new name: Enter department name: Faculty record updated successfully. | 2. Display Records | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T07 - Delete faculty without request history: PASS
+  Expected: Faculty record deleted.
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | Choose type: Enter ID to delete: Faculty record deleted. | 2. Display Records | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T08 - Apply valid leave and calculate duration: PASS
+  Expected: Leave request submitted.; Duration: 3 day(s).
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request submitted. Request ID: 1. Duration: 3 day(s). | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T09 - Reject an invalid date range: PASS
+  Expected: Leave request not created:; End date cannot be before start date.
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request not created: End date cannot be before start date. | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T10 - Approve a pending leave request: PASS
+  Expected: Leave request Approved.; Approved: 1
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request submitted. Request ID: 1. Duration: 3 day(s). | 2. Display Records | Choose process: Enter Leave Request ID: 1. Approve  2. Reject: Enter Manager ID: Leave request Approved. | 2. Display Records | Departments: 1 | Faculty members: 1 | Leave requests: 1 | Approved: 1 | Rejected: 0 | Approved leave days: 3 | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T11 - Reject a pending leave request: PASS
+  Expected: Leave request Rejected.; Rejected: 1
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request submitted. Request ID: 1. Duration: 3 day(s). | 2. Display Records | Choose process: Enter Leave Request ID: 1. Approve  2. Reject: Enter Manager ID: Leave request Rejected. | 2. Display Records | Departments: 1 | Faculty members: 1 | Leave requests: 1 | Approved: 0 | Rejected: 1 | Approved leave days: 0 | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T12 - Reject duplicate faculty ID: PASS
+  Expected: This Faculty ID already exists.
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: This Faculty ID already exists. | 2. Display Records | 2. Display Records | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T13 - Protect faculty with leave-request history: PASS
+  Expected: Cannot delete faculty with leave-request history.
+  Actual: 2. Display Records | Choose record type: Enter Department ID: Enter Department Name: Department record added successfully. | 2. Display Records | Choose record type: Enter Faculty ID: Enter Faculty Name: Enter Department Name (add department first): Faculty record added successfully. | 2. Display Records | Choose process: Enter Faculty ID: Enter leave type (Casual/Sick/Earned): Enter start date (YYYY-MM-DD): Enter end date (YYYY-MM-DD): Leave request submitted. Request ID: 1. Duration: 3 day(s). | 2. Display Records | Choose type: Enter ID to delete: Cannot delete faculty with leave-request history. | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+T14 - Save and load records after restart: PASS
+  Expected: Faculty and approved request remain after closing and reopening
+  Actual: Enter your choice: Records saved to the Data folder.; Faculty ID: 101 | Name: Yash Gupta | Department: Computer Science; Approved: 1; Enter your choice: Records saved to the Data folder.
+
+T15 - Invalid menu choice: PASS
+  Expected: Invalid menu choice. Enter 1 to 9.
+  Actual: 2. Display Records | Enter your choice: Invalid menu choice. Enter 1 to 9. | 2. Display Records | Enter your choice: Records saved to the Data folder. | Goodbye.
+
+TOTAL: 15/15 PASS
